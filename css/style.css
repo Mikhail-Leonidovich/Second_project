@@ -252,3 +252,57 @@ body {
 .social__icon:last-child {
   margin-right: 0px;
 }
+
+/* ---------------
+    Statistics
+---------------- */
+
+.statistics {
+  background-color: #fff;
+  height: 655px;
+  color: #3c4761;
+}
+
+.statistics__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 30px;
+  padding-top: 120px;
+}
+
+.statistics__mini-border {
+  border: 2px solid #dfe8ed;
+  width: 90px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.statistics__subtitle {
+  line-height: 1.44;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.statistics__items {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics__item {
+  width: 260px;
+  text-align: center;
+ 
+  margin-right: 20px;
+}
+
+.statistics__item__title {
+  font-size: 24px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 30px;
+}
