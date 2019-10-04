@@ -329,3 +329,86 @@ body {
   font-weight: 700;
   margin-top: 30px;
 }
+
+/* ---------------
+    Portfolio
+---------------- */
+
+.portfolio {
+  height: 1420px;
+  background-color: #ffdd99;
+  color: #393939;
+}
+
+.portfolio__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 30px;
+  padding-top: 120px;
+}
+
+.portfolio__mini-border {
+  border: 2px solid #e5c37f;
+  width: 90px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.portfolio__subtitle {
+  line-height: 1.44;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.portfolio__items {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio__item {
+  width: 540px;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 65px;
+}
+
+.portfolio__item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.portfolio__item__title {
+  font-size: 18px;
+  line-height: 19.5px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.portfolio__button {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.btn-2 {
+  width: 295px;
+  height: 65px;
+  background-color: #17c2a4;
+  border: 0px;
+  border-bottom: 4px solid #14a58c;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn-2:hover {
+  cursor: pointer;
+}
+
+/* ---------------
+    People
+---------------- */
+
