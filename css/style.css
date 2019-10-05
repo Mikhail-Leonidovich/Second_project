@@ -318,7 +318,6 @@ body {
 .statistics__item {
   width: 260px;
   text-align: center;
-
   margin-right: 20px;
 }
 
@@ -412,3 +411,92 @@ body {
     People
 ---------------- */
 
+.people {
+  height: 895px;
+  background-color: #d74680;
+}
+
+.people__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 30px;
+  padding-top: 120px;
+}
+
+.people__mini-border {
+  border: 2px solid #b73c6d;
+  width: 90px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.people__subtitle {
+  line-height: 1.44;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.people__items {
+  margin-top: -75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.people__item {
+  width: 540px;
+  margin-right: 20px;
+  margin-top: 145px;
+  display: flex;
+}
+
+.people__item:nth-child(2n) {
+  margin-right: 0px;
+}
+
+.people__item__img {
+  width: 95px;
+  height: 95px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.people__photo-1 {
+  transform: translate3d(-32%, -27%, 0);
+}
+
+.people__photo-2 {
+  transform: translate3d(-28%, -23%, 0);
+}
+
+.people__photo-3 {
+  transform: translate3d(-28%, -24%, 0);
+}
+
+.people__photo-4 {
+  transform: translate3d(-23%, -40%, 0);
+}
+
+.people__inner {
+  margin-left: 50px;
+}
+
+.people__item__title {
+  font-size: 21px;
+  line-height: 1.47;
+  font-style: italic;
+}
+
+.people__item__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+  margin-top: 30px;
+}
+.people__item__text {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffdd99;
+}
