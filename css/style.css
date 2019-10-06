@@ -500,3 +500,132 @@ body {
   line-height: 1.4;
   color: #ffdd99;
 }
+
+/* ---------------
+    Commentaries
+---------------- */
+
+.comments {
+  height: 820px;
+  background-color: #3c5499;
+}
+
+.comments__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 30px;
+  padding-top: 120px;
+}
+
+.comments__mini-border {
+  border: 2px solid #273a71;
+  width: 90px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.comments__subtitle {
+  line-height: 1.44;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.comment {
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.comment__name {
+  width: 415px;
+  background-color: #273a71;
+  color: #fff;
+  height: 55px;
+  padding-left: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.comment__email {
+  width: 415px;
+  margin-left: 30px;
+  background-color: #273a71;
+  color: #fff;
+  height: 55px;
+  padding-left: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.comment__message {
+  width: 860px;
+  margin-top: 25px;
+  background-color: #273a71;
+  color: #fff;
+  height: 200px;
+  padding-left: 25px;
+  padding-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+/* ::placeholder::after {
+  content: "*";
+  color: red;
+} */
+
+.comments__button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.btn-3 {
+  width: 290px;
+  height: 66px;
+  background-color: #30bae7;
+  border: none;
+  border-bottom: 4px solid #299ec5;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+/* ---------------
+    Footer
+---------------- */
+
+.footer {
+  background-color: #344b8e;
+}
+
+.footer__inner {
+  height: 110px;
+  width: 945px;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.footer__link:hover {
+  color: #30bae7;
+  transition: 0.2s;
+}
