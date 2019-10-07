@@ -578,11 +578,6 @@ body {
   color: #fff;
 }
 
-/* ::placeholder::after {
-  content: "*";
-  color: red;
-} */
-
 .comments__button {
   margin-top: 60px;
   text-align: center;
@@ -599,6 +594,10 @@ body {
   font-weight: 600;
   line-height: 1.6;
   text-transform: uppercase;
+}
+
+.btn-3:hover {
+  cursor: pointer;
 }
 
 /* ---------------
