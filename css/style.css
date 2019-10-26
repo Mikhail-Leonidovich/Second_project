@@ -487,6 +487,7 @@ body {
   font-size: 21px;
   line-height: 1.47;
   font-style: italic;
+  width: 380px;
 }
 
 .people__item__subtitle {
@@ -627,4 +628,148 @@ body {
 .footer__link:hover {
   color: #30bae7;
   transition: 0.2s;
+}
+
+/* ---------------
+    Media
+---------------- */
+
+@media (max-width: 1099px) {
+  /* header */
+
+  .header__title {
+    font-size: 36px;
+  }
+
+  .btn {
+    padding: 25px 60px 21px;
+  }
+
+  /* services */
+
+  .services {
+    height: 1100px;
+  }
+
+  .services__title {
+    font-size: 34px;
+  }
+
+  .services__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 700px;
+  }
+
+  .services__item {
+    margin: 60px 40px 0 40px;
+  }
+
+  .services__item__title {
+    margin-top: 40px;
+  }
+
+  /* team */
+
+  .team {
+    height: 1400px;
+  }
+
+  .team__title {
+    font-size: 34px;
+  }
+
+  .team__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 700px;
+  }
+
+  .team__item {
+    margin: 40px 40px 0 40px;
+  }
+
+  /* statistics */
+
+  .statistics {
+    height: 900px;
+  }
+
+  .statistics__title {
+    font-size: 34px;
+  }
+
+  .statistics__items {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 700px;
+  }
+
+  .statistics__item {
+    margin: 60px 40px 0 40px;
+  }
+
+  .statistics__item__title {
+    margin-top: 10px;
+  }
+
+  /* portfolio */
+
+  .portfolio {
+    height: 2300px;
+  }
+
+  .portfolio__items {
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .portfolio__item {
+    margin-top: 80px;
+  }
+
+  /* people */
+
+  .people {
+    height: 1150px;
+  }
+
+  .people__title {
+    font-size: 34px;
+  }
+
+  .people__items {
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .people__item {
+    flex-direction: column;
+    width: 300px;
+    margin: 60px 20px 20px 20px;
+  }
+
+  .people__inner {
+    margin: 0;
+  }
+
+  .people__item__title {
+    height: 150px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* comments */
+
+  .comments {
+  }
+
+  .comments__title {
+    font-size: 34px;
+  }
 }
