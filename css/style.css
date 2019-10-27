@@ -766,10 +766,38 @@ body {
 
   /* comments */
 
-  .comments {
-  }
-
   .comments__title {
     font-size: 34px;
+  }
+
+  .comments__subtitle {
+    width: 530px;
+    margin: 25px auto;
+  }
+
+  .comment__name {
+    width: 250px;
+  }
+
+  .comment__email {
+    width: 250px;
+  }
+
+  .comment__message {
+    width: 530px;
+  }
+
+  ::placeholder {
+    font-size: 16px;
+  }
+
+  /* footer */
+
+  .footer__inner {
+    width: 700px;
+  }
+
+  .footer__link {
+    font-size: 18px;
   }
 }
